@@ -1,0 +1,129 @@
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 25px;
+}
+
+button{
+    cursor: pointer;
+    font-size: 26px;
+}
+
+h2{
+    font-size: 35px;
+}
+header{
+    background-image: url(/img/img6.jpg);
+    background-size: cover;
+    padding: 30px;
+    padding-bottom: 200px;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none; 
+    padding-top: 30px;
+    color: white;
+    margin-left: 20px;
+}
+
+.left{
+    display: inline;
+    padding: 10px;
+}
+
+.right{
+    display: inline;
+    float: right;
+    padding-right: 10px;
+}   
+.right a{
+    padding-left: 10px;
+}
+
+.para{
+    padding-top: 100px;
+    text-align: center;
+    padding-left:30%;
+    padding-right:30%;
+    color:white
+}
+
+.para button{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border:none;
+    color:white;
+    background-color: rgb(0, 132, 255);
+    font-size: 14px;
+}
+/***********************************************/
+.sec1{
+    background-color: rgb(0, 162, 255);
+    color:white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cl1{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.cl1 div{
+    padding: 10px;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.cl1 img{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding-top:20px;
+}
+
+.div2{
+    display: flex;
+    justify-content: row;
+    padding-left:20%;
+    padding-right:20%;
+}
+
+/***********************************************/
+.sec2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height:100%;
+}
+
+.img{
+    background-image: url(/img/img2.jpg);
+    background-size: cover;
+}
+
+.text{
+    background-image: url(/img/img5.jpg);
+    background-size: cover;
+    color:white;
+    padding: 50px 20% 50px 20%;
+
+}
+
+.but2{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    border:2px solid white;
+    color:white;
+    background-color: rgba(0,0,0,0);
+}
