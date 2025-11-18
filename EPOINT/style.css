@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-color: gray;
+    padding-bottom: 50px ;
+    color:white;
+}
+
+nav{
+    padding: 30px 70px;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+}
+
+.left{
+    display: inline;
+}
+
+.right{
+    display: inline;
+    float: right;
+}
+
+.right a{
+    padding: 30px 10px 30px 20px;
+}
+
+.hd{
+    text-align: center;
+    padding: 10px 10% 10px 10%;
+}
+
+.hd p{
+    font-size: 18px;
+}
+
+.hd button{
+    padding:10px 20px;
+    border-radius: 40px;
+    border:none;
+    background-color: rgb(0, 153, 255);
+    color:white;
+    font-style: bold;
+    font-size: 15px;
+}
+
+/************************/
+
+.sec1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding:0px 60px 60px 60px;
+}
+
+.sec2{
+    padding: 60px 60px 0px 60px;
+    width: 30%;
+}
+.sec1 img{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.sec1 div{
+    padding-right: 40px;
+}
+
+.gr2{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.gr2 a{
+    text-decoration: none;
+}
+
+/************************/
+
+.sec3{
+    background-color: rgb(218, 218, 218);
+    padding: 60px;
+}
+
+.sec3 h1{
+    font-size: 30px;
+}
+
+.gr3{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+    padding:10px 40px;
+}
+
+.gr3 img{
+    width: 50px;
+}
+
+
+/************************/
+
+footer{
+    background-color: rgb(22, 22, 22);
+    height: 100px;
+}
